@@ -17,7 +17,7 @@ player4 = Pawn((0, 4), board, 'left')
 while not game_over:
     player1.movement()
     player2.movement()
-    player3.movement()
-    player4.movement()
+    #player3.movement()
+    #player4.movement()
 
 
