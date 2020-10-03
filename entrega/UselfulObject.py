@@ -6,7 +6,8 @@ class Algorithms:
     def __init__(self):
         pass
 
-    def put_wall(pawn, wall, board):
+    @staticmethod
+    def put_wall(wall, board):
         # En esta función se planea usar nx.has.path()
         return True
 
@@ -16,6 +17,7 @@ class Algorithms:
         path = nx.shortest_path(g, pawn.pos)
         return path
 
-    def a_star_algorithm(self, pawn, board):
+    @staticmethod
+    def a_star_algorithm(pawn, board):
         # Se planea utilizar nx.astar_path()
         return True

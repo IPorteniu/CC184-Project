@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a87cb35-2497-4298-98c9-6de51106bec3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LogicBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogicBoard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pawn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pawn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UselfulObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/UselfulObject.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -50,7 +49,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -92,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601667627266</updated>
       <workItem from="1601667663532" duration="895000" />
-      <workItem from="1601683987915" duration="8243000" />
+      <workItem from="1601683987915" duration="8919000" />
+      <workItem from="1601700089988" duration="3271000" />
     </task>
     <servers />
   </component>
@@ -109,40 +108,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1601699280255">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1601700076015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699280255" />
-    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1601699280255">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1601700076015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699280255" />
-    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1601699280255">
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1601700076015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699280255" />
-    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1601699280255">
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1601700076015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699280255" />
-    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1601699282361">
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom" timestamp="1601699810956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699282361" />
-    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1601699282361">
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
+    <state width="1877" height="266" key="GridCell.Tab.1.center" timestamp="1601699810956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699282361" />
-    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1601699282361">
+    <state width="1877" height="266" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
+    <state width="1877" height="266" key="GridCell.Tab.1.left" timestamp="1601699810956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699282361" />
-    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1601699282361">
+    <state width="1877" height="266" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
+    <state width="1877" height="266" key="GridCell.Tab.1.right" timestamp="1601699810956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699282361" />
+    <state width="1877" height="266" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
