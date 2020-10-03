@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a87cb35-2497-4298-98c9-6de51106bec3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pawn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pawn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UselfulObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/UselfulObject.py" afterDir="false" />
@@ -59,17 +60,17 @@
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="entrega" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Universidad\OneDrive - Universidad Peruana de Ciencias\Sexto Ciclo\Complejidad\ejercicios\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
@@ -91,7 +92,7 @@
       <updated>1601667627266</updated>
       <workItem from="1601667663532" duration="895000" />
       <workItem from="1601683987915" duration="8919000" />
-      <workItem from="1601700089988" duration="3271000" />
+      <workItem from="1601700089988" duration="9653000" />
     </task>
     <servers />
   </component>
@@ -111,38 +112,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1601700076015">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601703657150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1601700076015">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601703657150" />
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1601709742113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1601700076015">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709742113" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1601709742113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1601700076015">
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709742113" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1601709742113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601700076015" />
-    <state width="1877" height="266" key="GridCell.Tab.1.bottom" timestamp="1601699810956">
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709742113" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1601709742113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
-    <state width="1877" height="266" key="GridCell.Tab.1.center" timestamp="1601699810956">
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709742113" />
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom" timestamp="1601709343583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
-    <state width="1877" height="266" key="GridCell.Tab.1.left" timestamp="1601699810956">
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709343583" />
+    <state width="1877" height="266" key="GridCell.Tab.1.center" timestamp="1601709343583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
-    <state width="1877" height="266" key="GridCell.Tab.1.right" timestamp="1601699810956">
+    <state width="1877" height="266" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709343583" />
+    <state width="1877" height="266" key="GridCell.Tab.1.left" timestamp="1601709343583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601699810956" />
+    <state width="1877" height="266" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709343583" />
+    <state width="1877" height="266" key="GridCell.Tab.1.right" timestamp="1601709343583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601709343583" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -150,10 +155,11 @@
         <watch expression="player.g.nodes._abc_impl" />
         <watch expression="player.pos" />
         <watch expression="player.g" />
+        <watch expression="self" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/entrega$main.coverage" NAME="main Coverage Results" MODIFIED="1601699279777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/entrega$main.coverage" NAME="main Coverage Results" MODIFIED="1601709650049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
