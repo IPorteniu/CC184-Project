@@ -2,6 +2,8 @@ import networkx as nx
 from Position import Position
 from UselfulObject import Algorithms
 from BuildPawn import BuildPawn
+import sys
+
 
 
 class Pawn:
@@ -34,8 +36,8 @@ class Pawn:
         return paths[pos]
 
     def is_a_winner(self):
-        print("ganaste ctmr ", self.identifier)
-        return
+        print("¡¡Ganaste!! Jugador con identificador:", self.identifier)
+        sys.exit()
 
     def movement(self):
         path = self.find_shortest()
@@ -43,6 +45,8 @@ class Pawn:
         if len(path) == 0:
             self.is_a_winner()
             return
+        #Comprobar si hay pared con nx.HasPath()
         self.pos = path[0]
-        path.pop(0)
-        print(path)
+        #path.pop(0)
+
+        print(self.identifier, path)
