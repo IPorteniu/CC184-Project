@@ -4,12 +4,8 @@ from Pawn import Pawn
 from LogicBoard import BoardGame
 
 
-
 board = BoardGame()
-G = board.build_table()
-player = Pawn((4, 0), (4, 4))
-path = Algorithms.shortest_path(Algorithms,pawn=player, g=G)
-print(path)
+player = Pawn((4, 0), board)
 plt.show()
 
 
