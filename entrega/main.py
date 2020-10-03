@@ -4,6 +4,6 @@ from LogicBoard import BoardGame
 
 
 board = BoardGame()
-player = Pawn((4, 8), board, 'up')
+player = Pawn((4, 8), board, 'down')
 player.movement()
 plt.show()
