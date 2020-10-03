@@ -1,6 +1,4 @@
 import networkx as nx
-from Position import Position
-from UselfulObject import Algorithms
 from BuildPawn import BuildPawn
 import sys
 
@@ -53,7 +51,7 @@ class Pawn:
             self.move_forward(path)
         else:
             self.next_was_occupied(path)
-        print(self.identifier, path)
+        print("Estoy en " + str(self.pos) + " "+  self.identifier, path)
 
     def move_forward(self, path):
         self.free_spaces.nodes[self.pos]['occupied'] = False
@@ -61,6 +59,7 @@ class Pawn:
         self.free_spaces.nodes[path[0]]['occupied'] = True
 
     def next_was_occupied(self, path):
+        print("Preparense voy a saltar ", self.identifier)
         self.free_spaces.nodes[self.pos]['occupied'] = False
         path.pop(0)
         self.free_spaces.nodes[path[0]]['occupied'] = True

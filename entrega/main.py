@@ -12,8 +12,8 @@ player2 = Pawn((4, 0), board, 'down')
 player3 = Pawn((8, 4), board, 'right')
 player4 = Pawn((0, 4), board, 'left')
 # visual = visualBoard(board)
-# Profesor, le debo la parte visual del juego
 # visual.start_game()
+# Profesor, le debo la parte visual del juego
 while not game_over:
     player1.movement()
     player2.movement()
