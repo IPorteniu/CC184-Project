@@ -1,5 +1,5 @@
 import networkx as nx
-from BuildPawn import BuildPawn
+from LogicPawnFactory import BuildPawn
 import sys
 
 
@@ -10,6 +10,7 @@ class Pawn:
         self.n = board.n
         self.identifier = identifier
         self.free_spaces = board.g
+
 
         BuildPawn.pawn_builder(self.g, identifier, self.n)
 
@@ -23,12 +24,12 @@ class Pawn:
         BuildPawn.algorithm_selector(self.g, self.pos, self.winning_nodes, self.n, self.identifier, paths)
 
         # Setteo dos variables que me ayuden a encontrar el camino mas corto
-        min = len(paths[0])
+        shortest = len(paths[0])
         pos = 0
         for i in range(1, self.n):
-            if len(paths[i]) < min:
+            if len(paths[i]) < shortest:
                 pos = i
-                min = len(paths[i])
+                shortest = len(paths[i])
 
         # Elimino el primero ya que es mi posicion actual
         paths[pos].pop(0)
@@ -38,6 +39,11 @@ class Pawn:
         print("¡¡Ganaste!! Jugador con identificador:", self.identifier)
         sys.exit()
 
+    def prueba_eliminar(self,path):
+        self.free_spaces.remove_edge((path[1]), (path[2]))
+        print(self.free_spaces.edges())
+        print("elimine una arista jeje")
+        self.free_spaces.edges()
     def movement(self):
         path = self.find_shortest()
 
@@ -51,7 +57,10 @@ class Pawn:
             self.move_forward(path)
         else:
             self.next_was_occupied(path)
-        print("Estoy en " + str(self.pos) + " "+  self.identifier, path)
+        print("Estoy en " + str(self.pos) + " " + self.identifier, path)
+        print(list(self.free_spaces.edges(data=True)))
+        #self.prueba_eliminar(path)
+
 
     def move_forward(self, path):
         self.free_spaces.nodes[self.pos]['occupied'] = False

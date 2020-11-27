@@ -1,7 +1,6 @@
 import pygame
 from pygame.locals import *
 import sys
-import math
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)

@@ -1,8 +1,5 @@
-import matplotlib.pyplot as plt
+from LogicBoardFactory import BoardGame
 from Pawn import Pawn
-from LogicBoard import BoardGame
-from VisualBoard import visualBoard
-import sys
 
 game_over = False
 
@@ -13,10 +10,9 @@ player3 = Pawn((8, 4), board, 'right')
 player4 = Pawn((0, 4), board, 'left')
 # visual = visualBoard(board)
 # visual.start_game()
-# Profesor, le debo la parte visual del juego
 while not game_over:
     player1.movement()
-    player2.movement()
+    #player2.movement()
     #player3.movement()
     #player4.movement()
 

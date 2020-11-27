@@ -20,18 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a87cb35-2497-4298-98c9-6de51106bec3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/a star.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/entrega.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/entrega.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildPawn.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildPawn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildPawn.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogicPawnFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogicBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogicBoardFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pawn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pawn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Position.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UselfulObject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisualBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/VisualBoard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="entrega" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,25 +59,38 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Universidad\OneDrive - Universidad Peruana de Ciencias\Sexto Ciclo\Complejidad\CC184-Project\entrega" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="entrega" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Universidad\OneDrive - Universidad Peruana de Ciencias\Sexto Ciclo\Complejidad\ejercicios\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\IPorteniu\Desktop\CC184-Project\entrega\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
@@ -84,7 +102,10 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6a87cb35-2497-4298-98c9-6de51106bec3" name="Default Changelist" comment="" />
@@ -106,12 +127,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601703657150">
