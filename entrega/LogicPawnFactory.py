@@ -1,13 +1,13 @@
 import networkx as nx
 import time as t
 
+
 class BuildPawn:
     def __init__(self):
         pass
 
     @staticmethod
     def pawn_builder(g, identifier, n):
-        #nx.set_node_attributes(g, False, 'win')
 
         if identifier == 'up':
             for i in range(n):
