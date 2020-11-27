@@ -10,12 +10,12 @@ class Pawn:
         self.n = board.n
         self.identifier = identifier
         self.free_spaces = board.g
-        self.num_walls = walls
+        self.num_walls = int(walls)
         self.available_points = []
-        self.movement_history = [self.pos]
-
+        self.movement_history = []
+        self.path = []
+        self.has_path = True
         BuildPawn.pawn_builder(self.g, identifier, self.n)
-
         # Se settean los nodos que son ganadores para el pawn
         self.winning_nodes = [n for n, d in self.g.nodes(data=True) if d['win']]
 
@@ -41,39 +41,44 @@ class Pawn:
         if self.pos not in self.winning_nodes:
             return
         print("\n¡¡Ganaste!! Jugador con identificador: ", self.identifier)
+        print("Historial de movimientos: ",self.movement_history)
         sys.exit()
 
     def movement(self):
         print("\nTurno de " + str(self.identifier))
         self.push_location()
-        path = self.find_shortest()
+        self.path = self.find_shortest()
 
         # ToDo Comprobar si hay pared con nx.HasPath()
 
-        if not self.free_spaces.nodes[path[0]]['occupied']:
-            print(self.identifier + " se mueve a" + str(path[0]))
-            self.move_forward(path)
+        if not self.free_spaces.nodes[self.path[0]]['occupied']:
+            print(self.identifier + " se mueve a" + str(self.path[0]))
+            self.move_forward()
             self.is_a_winner()
         else:
-            print("\n Oops, la casilla " + str(path[0]) + " se encuentra ocupada")
-            self.next_was_occupied(path)
+            print("\n Oops, la casilla " + str(self.path[0]) + " se encuentra ocupada")
+            self.next_was_occupied()
             self.is_a_winner()
 
-    def move_forward(self, path):
+    def move_forward(self):
         self.free_spaces.nodes[self.pos]['occupied'] = False
-        self.pos = path[0]
-        self.free_spaces.nodes[path[0]]['occupied'] = True
+        self.pos = self.path[0]
+        self.free_spaces.nodes[self.path[0]]['occupied'] = True
 
-    def next_was_occupied(self, path):
-        print("¡" + self.identifier + " salta a " + str(path[1])+"!")
+    def next_was_occupied(self):
+        print("¡" + self.identifier + " salta a " + str(self.path[1])+"!")
         self.free_spaces.nodes[self.pos]['occupied'] = False
-        path.pop(0)
-        self.free_spaces.nodes[path[0]]['occupied'] = True
-        self.pos = path[0]
+        self.path.pop(0)
+        self.free_spaces.nodes[self.path[0]]['occupied'] = True
+        self.pos = self.path[0]
 
     def push_location(self):
         self.movement_history.append(self.pos)
 
-    def use_wall(self):
+    def use_wall(self, nodes):
         self.num_walls -= 1
+        self.free_spaces.remove_edge(nodes[0], nodes[1])
+        self.free_spaces.remove_edge(nodes[1], nodes[2])
 
+    def get_path(self):
+        return self.path
