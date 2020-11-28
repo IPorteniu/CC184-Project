@@ -30,15 +30,7 @@ class Game:
 
         self.player1 = Pawn((4, 8), self.board, 'up', self.num_walls / self.num_players)
         self.player2 = Pawn((4, 0), self.board, 'down', self.num_walls / self.num_players)
-        erase = [(4,4),(4,5),(4,6)]
-        #self.player2.use_wall(erase)
-        print(self.player2.num_walls)
+
         while not game_over:
-            self.player1.movement()
             self.player2.movement()
-
-    def put_wall(self, bully, sheep1, sheep2, sheep3, nodes):
-        dummy_board = self.board.copy()
-
-        if nx.has_path(board, bully.pos, [e for e in sheep1.winning_nodes]):
-            print(str(sheep1.identifier) + " tiene camino")
+            self.player1.movement()

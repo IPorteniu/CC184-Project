@@ -11,10 +11,9 @@ class Pawn:
         self.identifier = identifier
         self.free_spaces = board.g
         self.num_walls = int(walls)
-        self.available_points = []
         self.movement_history = []
         self.path = []
-        self.has_path = True
+        self.shortest = 0
         BuildPawn.pawn_builder(self.g, identifier, self.n)
         # Se settean los nodos que son ganadores para el pawn
         self.winning_nodes = [n for n, d in self.g.nodes(data=True) if d['win']]
@@ -33,7 +32,6 @@ class Pawn:
                 pos = i
                 shortest = len(paths[i])
 
-        # Elimino el primero ya que es mi posicion actual
         paths[pos].pop(0)
         return paths[pos]
 
@@ -48,9 +46,7 @@ class Pawn:
         print("\nTurno de " + str(self.identifier))
         self.push_location()
         self.path = self.find_shortest()
-
-        # ToDo Comprobar si hay pared con nx.HasPath()
-
+        self.shortest = int(len(self.path))
         if not self.free_spaces.nodes[self.path[0]]['occupied']:
             print(self.identifier + " se mueve a" + str(self.path[0]))
             self.move_forward()
@@ -76,9 +72,9 @@ class Pawn:
         self.movement_history.append(self.pos)
 
     def use_wall(self, nodes):
-        self.num_walls -= 1
-        self.free_spaces.remove_edge(nodes[0], nodes[1])
-        self.free_spaces.remove_edge(nodes[1], nodes[2])
+        self.num_walls -= 2
+        if self.num_walls > 0:
+            self.free_spaces.remove_edge(nodes[0], nodes[1])
 
     def get_path(self):
         return self.path
